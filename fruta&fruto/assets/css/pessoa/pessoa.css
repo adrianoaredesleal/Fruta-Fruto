@@ -1,0 +1,18 @@
+.pessoa {
+    display: flex; /* uma pessoa abaixo da outra */
+    flex-direction: column; /* direção do flexbox */
+}
+
+/* Responsividade do sessao de pessoas para dispositivos celulares */
+@media screen and (min-width: 0) {
+    .pessoa {
+        margin-bottom: 2rem; /* espaçamento entre as pessoas */
+    }    
+}
+/* Responsividade do sessao de pessoas para dispositivos tablets */
+@media screen and (min-width: 768px) {
+    .pessoa {
+        margin-bottom: 0;
+    }    
+}
+

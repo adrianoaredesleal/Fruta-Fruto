@@ -1,0 +1,6 @@
+.pessoa__funcao {
+    color: #595959; /* cor da função */
+    font-size: 1.25rem; /* tamanho do campo função */
+    text-transform: lowercase; /* transformando o texto função em caixa baixa */
+}  
+    

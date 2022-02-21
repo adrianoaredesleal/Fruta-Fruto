@@ -1,0 +1,8 @@
+/* Estilizando o Item da lista */
+.menu__item {
+    list-style: none;    
+}
+/* Retirando a margem do ultimo elemento link a */
+.menu__item:last-child .menu-link {
+    margin-right: 0;
+}

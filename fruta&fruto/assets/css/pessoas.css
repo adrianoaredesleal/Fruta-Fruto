@@ -1,0 +1,18 @@
+.pessoas {
+    display: flex; /* alinhar um ao lado do outro */
+    justify-content: space-around; /* alinhando com espaço entre as caixas */
+    padding-top: 3rem; /* espaçamento no topo */
+}
+
+/* Responsividade do sessao de pessoas para dispositivos celulares */
+@media screen and (min-width: 0) {
+    .pessoas {
+        flex-direction: column;
+    }    
+}
+/* Responsividade do sessao de pessoas para dispositivos tablets */
+@media screen and (min-width: 768px) {
+    .pessoas {
+        flex-direction: row;
+    }    
+}

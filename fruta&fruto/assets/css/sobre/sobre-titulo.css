@@ -1,0 +1,18 @@
+.sobre__titulo {
+    color: #8d0606;
+    font-family: Pacifico, cursive;        
+}
+
+/* Responsividade sobre para dispositivos celulares */
+@media screen and (min-width: 0) {
+    .sobre__titulo {
+        font-size: 2rem;
+    }
+}
+
+/* Responsividade sobre para dispositivos Tablets */
+@media screen and (min-width: 768px) {
+    .sobre__titulo {
+        font-size: 3.1875rem;  
+    }
+}

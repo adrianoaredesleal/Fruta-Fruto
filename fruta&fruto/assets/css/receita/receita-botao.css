@@ -1,0 +1,13 @@
+.receita__botao {
+    background: #8d0606; /* cor de fundo */
+    border: none; /* sem borda */
+    border-radius: 5px; /* borda arredondada */
+    color: #fdfdfd; /* cor do texto do botão */
+    padding: 1rem; /* espaçamento interno */
+    transition: all .1s ease-in-out; /* efeito transição se inicia devagar e termina devagar */
+}
+
+.receita__botao:hover {
+    background: #620404; /*Efeito de cor ao passar o mouse por cima do botão */
+    cursor: pointer; /* colocar maozinha ao passar o mouse por cima do botão */    
+}

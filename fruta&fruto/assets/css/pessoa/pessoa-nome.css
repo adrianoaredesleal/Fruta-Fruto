@@ -1,0 +1,6 @@
+.pessoa__nome {
+    color: #8d0606; /* cor do nome */
+    font-family: Pacifico, cursive; /* fonte de style */
+    font-size: 2rem; /* tamanho do campo nome */
+    margin: 1rem 0 ; /* margem em cima e baixo 1rem e dos lados 0 */    
+}

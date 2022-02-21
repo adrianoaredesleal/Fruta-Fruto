@@ -1,0 +1,31 @@
+.receita {
+    background: #fdfdfd; /* fundo do card */
+    display: flex; /* para se comportar com flexbox */
+    flex-direction: column; /* comportamento do flex como coluna */
+    margin-bottom: 5rem; /* espaçamento em baixo das receita */
+    
+}
+
+/* Responsividade do sessão de receitas para dispositivos celulares */
+@media screen and (min-width: 0) {
+    .receita {
+        margin-right: 1rem;
+        width: 100%; /* Uma receita por linha */        
+    }
+}
+
+/* Responsividade do sessão de receitas para dispositivos Tablets */
+@media screen and (min-width: 768px) {
+    .receita {
+        margin-right: 2.5rem;
+        width: calc(33.33% - 2.5rem); /* 3 receitas por linha - margem */
+    }
+}
+
+/* Responsividade do sessão de receitas para dispositivos desktops */
+@media screen and (min-width: 992px) {
+    .receita {
+        margin-right: 5rem; /* espaçamento a direita */
+        width: calc(25% - 5rem); /* tamanho de cada card retirando o espaçamento da margin a direita*/
+    }
+}

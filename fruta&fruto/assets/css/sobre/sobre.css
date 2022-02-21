@@ -1,0 +1,18 @@
+.sobre {
+    text-align: center;
+    
+}
+
+/* Responsividade sobre para dispositivos celulares */
+@media screen and (min-width: 0) {
+    .sobre {
+        padding: 2.5rem 1rem;
+    }
+}
+
+/* Responsividade sobre para dispositivos Tablets */
+@media screen and (min-width: 768px) {
+    .sobre {
+        padding: 2.5rem;
+    }
+}

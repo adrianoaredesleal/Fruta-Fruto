@@ -1,0 +1,13 @@
+/* Responsividade retirando o logo em dispositivos celulares */
+@media screen and (min-width: 0) {
+    .logo {
+        display: none;
+    }
+}
+
+/* Responsividade retirando o logo em dispositivos Tablets */
+@media screen and (min-width: 768px) {
+    .logo {
+        display: block;
+    }
+}

@@ -1,0 +1,18 @@
+.sobre__descricao {
+    color: #595959;    
+    font-weight: 100;
+}
+
+/* Responsividade sobre para dispositivos celulares */
+@media screen and (min-width: 0) {
+    .sobre__descricao {
+        font-size: 1.3rem;
+    }
+}
+
+/* Responsividade sobre para dispositivos Tablets */
+@media screen and (min-width: 768px) {
+    .sobre__descricao {
+        font-size: 1.75rem;  
+    }
+}
